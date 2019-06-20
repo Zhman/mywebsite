@@ -1,0 +1,30 @@
+﻿@model IEnumerable<JewelryStore.Models.Order>
+@{
+    ViewBag.Title = "Список заказов";
+}
+
+<h2>Мои заказы</h2>
+<table class="table">
+    <tr>
+        <th>
+            № заказа
+        </th>
+        <th>
+            
+        </th>        
+    </tr>
+
+    @foreach (var order in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => order.OrderId)
+            </td>
+            <td>
+                @Html.ActionLink("Детали заказа","MyIndex","Order", new { orderId = order.OrderId }, new {@class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+   
+</table>
+

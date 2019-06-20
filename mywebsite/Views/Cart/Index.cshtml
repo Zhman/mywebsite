@@ -1,0 +1,145 @@
+﻿@model IEnumerable<JewelryStore.UI.Models.CartItemListModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("UpdateAll", "Cart", FormMethod.Post))
+{
+    @*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Jewelry.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jewelry.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jewelry.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Jewelry.CategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CartItem.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CartItem.Amount)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jewelry.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jewelry.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jewelry.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.EditorFor(modelItem => item.CartItem.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CartItem.Amount)
+
+                </td>
+                <td>
+                    @Html.HiddenFor(modelItem => item.CartItem.CartItemId)
+                    <a href="@Url.Action("Delete", "Cart", new { cartItemId = item.CartItem.CartItemId })" class="btn danger-btn">Удалить<i class="glyphicon glyphicon-chevron-right"></i></a>
+                    @Html.ActionLink("Удалить", "Delete", new { cartItemId = item.CartItem.CartItemId })
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="4"></td>
+            <td>
+                <strong>@Html.Raw("Сумма:")</strong>
+            </td>
+            <td colspan="2">
+                <strong> @Html.Raw(Model.Sum(i => i.CartItem.Amount).ToString())</strong>
+            </td>
+        </tr>
+    </table>
+    <p>
+        <input type="submit" value="Пересчитать" class="btn btn-warning" />        
+        <a href='@Url.Action("Checkout", "Order")' class="btn btn-success">Оформить заказ</a>        
+    </p>*@
+
+
+
+<section class="mainContent clearfix cartListWrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="cartListInner">
+                    <form action="#">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Product Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Sub Total</th>
+                                    </tr>
+                                </thead>  
+                                @foreach (var item in Model)
+                                {
+                                    <tbody>                                        
+                                        <tr>
+                                            
+                                            <td class="col-xs-2">
+                                                <a href="@Url.Action("Delete", "Cart", new { cartItemId = item.CartItem.CartItemId })" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span></a>
+                                                <span class="cartImage"><img height="100" width="100" src="@Url.Action("GetImage", "Jewelry", new { item.Jewelry.JewelryId })" /></span>
+                                            </td>                              
+                                            <td class="col-xs-4">@Html.DisplayFor(modelItem => item.Jewelry.Name)</td>
+                                            <td class="col-xs-2">@Html.DisplayFor(modelItem => item.Jewelry.Price)</td>
+                                            <td class="col-xs-2">@Html.EditorFor(modelItem => item.CartItem.Quantity)</td>
+                                            <td class="col-xs-2">@Html.DisplayFor(modelItem => item.CartItem.Amount)</td>
+                                            <td>@Html.HiddenFor(modelItem => item.CartItem.CartItemId)</td>                                            
+                                        </tr>                                        
+                                    </tbody> 
+                                }
+                            </table>
+                        </div>
+                        <div class="updateArea">
+                            @*<div class="input-group">
+                                <input type="text" class="form-control" placeholder="I have a discount coupon" aria-describedby="basic-addon2">
+                                <a href="#" class="btn input-group-addon" id="basic-addon2">apply coupon</a>
+                            </div>*@
+                            <input type="submit" value="Пересчитать" class="btn btn-warning" />
+                        </div>
+                        <div class="row totalAmountArea">
+                            <div class="col-sm-4 col-sm-offset-8 col-xs-12">
+                                <ul class="list-unstyled">
+                                    <li>Sub Total <span></span></li>
+                                    @*<li>UK Vat <span></span></li>*@
+                                    <li>Grand Total <span class="grandTotal">@Html.Raw(Model.Sum(i => i.CartItem.Amount).ToString())</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="checkBtnArea">
+                            <a  href='@Url.Action("Checkout", "Order")' class="btn btn-primary btn-block">checkout<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+}
+
+
+
+
+

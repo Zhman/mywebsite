@@ -1,0 +1,39 @@
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.pdb
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.CodeAnalysisLog.xml
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.lastcodeanalysissucceeded
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.csprojResolveAssemblyReference.cache
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.dll
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.CodeAnalysisLog.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.lastcodeanalysissucceeded
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.pdb
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.pdb
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.CodeAnalysisLog.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.lastcodeanalysissucceeded
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.pdb
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\JewelryStore.Models.dll.config
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\EntityFramework.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\EntityFramework.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\obj\Debug\JewelryStore.Models.csprojResolveAssemblyReference.cache
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Helpers.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Mvc.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Razor.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Helpers.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Mvc.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.Razor.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Женя\Documents\Visual Studio 2015\Projects\mywebsite\ClassLibrary\bin\Debug\System.Web.WebPages.Razor.xml

@@ -1,0 +1,7 @@
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\ClassLibrary.dll.CodeAnalysisLog.xml
+F:\zhenya\mywebsite\ClassLibrary\bin\Debug\ClassLibrary.dll.lastcodeanalysissucceeded
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\zhenya\mywebsite\ClassLibrary\obj\Debug\ClassLibrary.pdb
